@@ -1,0 +1,2762 @@
+{
+  "err": null,
+  "resCode": 1000,
+  "resDesc": null,
+  "apiCode": 0,
+  "apiSuccess": true,
+  "body": {
+    "ec": 0,
+    "rcmds": [
+      {
+        "c": "Near",
+        "n": "临近推荐",
+        "d": [
+          {
+            "ncc": "MIG",
+            "ncn": "绵阳",
+            "npc": null,
+            "npn": null,
+            "fcc": "CTU",
+            "fcn": "成都",
+            "tcc": "SHA",
+            "tcn": "上海",
+            "fp": 410,
+            "ntp": "NO",
+            "ntc": "GT",
+            "ntct": "TRAIN",
+            "nd": "37",
+            "np": 45,
+            "rntc": null,
+            "rnd": "0",
+            "rnp": 0,
+            "nf": {
+              "dcc": "MIG",
+              "dcn": "绵阳",
+              "acc": "SHA",
+              "acn": "上海",
+              "dpc": "MIG",
+              "apc": "SHA",
+              "lfs": 155,
+              "lp": 410
+            },
+            "ver": "1",
+            "tags": null
+          },
+          {
+            "ncc": "CKG",
+            "ncn": "重庆",
+            "npc": null,
+            "npn": null,
+            "fcc": "CTU",
+            "fcn": "成都",
+            "tcc": "SHA",
+            "tcn": "上海",
+            "fp": 270,
+            "ntp": "NO",
+            "ntc": "GT",
+            "ntct": "TRAIN",
+            "nd": "76",
+            "np": 159,
+            "rntc": null,
+            "rnd": "0",
+            "rnp": 0,
+            "nf": {
+              "dcc": "CKG",
+              "dcn": "重庆",
+              "acc": "SHA",
+              "acn": "上海",
+              "dpc": "CKG",
+              "apc": "SHA",
+              "lfs": 130,
+              "lp": 270
+            },
+            "ver": "1",
+            "tags": null
+          },
+          {
+            "ncc": "CZX",
+            "ncn": "常州",
+            "npc": null,
+            "npn": null,
+            "fcc": "CTU",
+            "fcn": "成都",
+            "tcc": "SHA",
+            "tcn": "上海",
+            "fp": 302,
+            "ntp": "ND",
+            "ntc": "GT",
+            "ntct": "TRAIN",
+            "nd": "35",
+            "np": 76,
+            "rntc": null,
+            "rnd": "0",
+            "rnp": 0,
+            "nf": {
+              "dcc": "CTU",
+              "dcn": "成都",
+              "acc": "CZX",
+              "acn": "常州",
+              "dpc": "CTU",
+              "apc": "CZX",
+              "lfs": 135,
+              "lp": 302
+            },
+            "ver": "1",
+            "tags": null
+          },
+          {
+            "ncc": "HGH",
+            "ncn": "杭州",
+            "npc": null,
+            "npn": null,
+            "fcc": "CTU",
+            "fcn": "成都",
+            "tcc": "SHA",
+            "tcn": "上海",
+            "fp": 268,
+            "ntp": "ND",
+            "ntc": "GT",
+            "ntct": "TRAIN",
+            "nd": "45",
+            "np": 73,
+            "rntc": null,
+            "rnd": "0",
+            "rnp": 0,
+            "nf": {
+              "dcc": "CTU",
+              "dcn": "成都",
+              "acc": "HGH",
+              "acn": "杭州",
+              "dpc": "CTU",
+              "apc": "HGH",
+              "lfs": 130,
+              "lp": 268
+            },
+            "ver": "1",
+            "tags": [
+              {
+                "type": "Single",
+                "content": "省132元"
+              },
+              {
+                "type": "Aggregate",
+                "content": "比直飞低价省132元"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "c": "Reservation",
+        "n": "降价提醒推荐",
+        "d": [
+          {
+            "rsv": 0
+          }
+        ]
+      },
+      {
+        "c": "RoundTrip",
+        "n": "往返推荐",
+        "d": [
+          {
+            "d": "2025-01-02",
+            "p": 850,
+            "n1": "3U8963",
+            "n2": "CA4536",
+            "w": 4,
+            "low": 1,
+            "src": 0,
+            "gaccn": "川航",
+            "raccn": "国航",
+            "gisf": 0,
+            "risf": 0,
+            "gtot": "08:00",
+            "gart": "10:40",
+            "gicd": 1,
+            "rtot": "21:30",
+            "rart": "00:55",
+            "gacd": "3U",
+            "racd": "CA",
+            "dc": "成都",
+            "ac": "上海",
+            "l": "有机会获得¥180现金"
+          }
+        ]
+      },
+      {
+        "c": "Book1RecommendPackageProduct",
+        "n": "book1推荐打包产品",
+        "d": [
+          {
+            "fn": "9C8888",
+            "sml": 2,
+            "tag": [
+              "SNIROqqfixYOOqBDb56nJQCSrupOzdc1U0qezjyYAHw4fxLBEmrYCgJUL3hiEzacbXRoxWeIAlzfpbd1BGiblbOCP1gMCIC9C2d0uyf91gHFUUnSHVbzz8sDSuBTM81JEYRSDTjdF60u3QqjyAx7jFO315lANdauUugc9WPOXSAy9fYfv5IpLtXIkEwMXFkFOi8IiY3o0pjmGkgYvfZwzzvepKN9HACFjgcwGz72kz0rbwczuay7G30J6rrbhHRYDfFBMqyHBevCTdmg8PhL2497363ML1xl3R3Rm5B97P7jU6"
+            ],
+            "btpt": "",
+            "dac": "CTU",
+            "aac": "SHA",
+            "dat": "T2",
+            "aat": "T1",
+            "dcc": "TFU",
+            "acc": "SHA",
+            "dt": "2024-12-30 13:30",
+            "at": "2024-12-30 16:05",
+            "dst": "13:30",
+            "ast": "16:05",
+            "td": "2h35m",
+            "ad": 0,
+            "dasn": "天府",
+            "aasn": "虹桥",
+            "ac": "9C",
+            "asn": "春秋",
+            "amn": "A321",
+            "atp": 400,
+            "app": 0,
+            "tps": [
+              {
+                "tt": 1,
+                "td": "儿童",
+                "tp": 400
+              },
+              {
+                "tt": 2,
+                "td": "婴儿",
+                "tp": 280
+              }
+            ],
+            "stop": [],
+            "icsf": false,
+            "mac": "",
+            "man": "",
+            "mfn": "",
+            "products": [
+              {
+                "productName": "随心飞行礼包",
+                "salePrice": 40,
+                "skuCode": "9049001000369",
+                "saleLabels": "飞行保障最高500万元",
+                "packageText": "共5项出行服务",
+                "PackagePointSummary": [
+                  {
+                    "i": "http://pic5.40017.cn/i/ori/1fw0Xm0Voic.png",
+                    "t": "¥40航班意外组合险"
+                  },
+                  {
+                    "i": "http://pic5.40017.cn/i/ori/1gZkdn850SQ.png",
+                    "t": "机票赢免单"
+                  },
+                  {
+                    "i": "http://pic5.40017.cn/i/ori/1fw0Xm0Voic.png",
+                    "t": "意外保额最高500万"
+                  },
+                  {
+                    "i": "http://pic5.40017.cn/i/ori/1fw0AM30gY8.png",
+                    "t": "赠¥10机票券"
+                  }
+                ]
+              }
+            ],
+            "g5": 0,
+            "ra": 0,
+            "dp": {},
+            "dps": {}
+          }
+        ]
+      },
+      {
+        "c": "RecentDirect",
+        "n": "近期直飞",
+        "d": [
+          {
+            "d": "2024-12-31",
+            "w": 2,
+            "p": 330,
+            "tags": null
+          },
+          {
+            "d": "2025-01-02",
+            "w": 4,
+            "p": 330,
+            "tags": null
+          }
+        ]
+      }
+    ],
+    "cache_key": "",
+    "stu_page_url": "https://wx.17u.cn/flightactivities/newAuth/student/home?refid=1525238961",
+    "logo_version": 20241212,
+    "riskTag": false,
+    "roundway_rec_position": {
+      "enable": true,
+      "theme_top": {
+        "enable": true,
+        "sub_title": "往返一起订：若去程航变或取消，返程免费改签",
+        "days": 7
+      },
+      "theme_middle": {
+        "enable": true,
+        "sub_title": "往返一起订：若去程航变或取消，返程免费改签",
+        "days": 7
+      },
+      "theme_bottom": {
+        "enable": true,
+        "sub_title": "往返一起订：若去程航变或取消，返程免费改签",
+        "days": 7
+      }
+    },
+    "multipleSceneRecommends": [
+      {
+        "scene": "gnjp_book1_Book1PositionRank",
+        "products": [
+          {
+            "num": 11,
+            "name": "FS",
+            "pos": "B"
+          },
+          {
+            "num": 0,
+            "name": "NJGQS",
+            "pos": "B"
+          },
+          {
+            "num": 4,
+            "name": "GJTJ",
+            "pos": "B"
+          },
+          {
+            "num": 23,
+            "name": "KJPX",
+            "pos": "B"
+          },
+          {
+            "num": 2,
+            "name": "GNYX",
+            "pos": "B"
+          },
+          {
+            "num": 5,
+            "name": "XSRZ",
+            "pos": "A"
+          },
+          {
+            "num": 3,
+            "name": "ZHN",
+            "pos": "B"
+          },
+          {
+            "num": 3,
+            "name": "TZS",
+            "pos": "B"
+          }
+        ],
+        "userTags": [
+          "ut_gn_book1newuser"
+        ],
+        "properties": {
+          "OUT_PRODUCT_PROPERTIES": {}
+        }
+      }
+    ],
+    "rp_prompt": {
+      "user_tags": [
+        "ut_unhn",
+        "ut_new_lj"
+      ],
+      "products": [],
+      "rst": "",
+      "ret": ""
+    },
+    "common_activity": [
+      {
+        "scene": "common_activity",
+        "products": [
+          "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+          "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+          "DL_e337ed60388d11ecbebc03443af0ee14",
+          "DL_b2d31b0af37311eb867309032570a819",
+          "DL_4813b474ef8d11eb804bbdee26bc4636",
+          "LQ_239b94db2e4211eb95f73106083496d5$30",
+          "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+          "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+          "DL_353c60a3ec7911ec9e845981305afed8$",
+          "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+          "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+          "DL_7751abd0420a11ec901c2f973cc01d93$",
+          "DL_117f0b150fd211ec8c69899ae44f8edc",
+          "DL_6aba1f1672cc11ec8d668f1242171b2b",
+          "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+          "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+          "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+          "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+          "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+          "DL_d6f034c1920511eb9c474f5f8d79eef7",
+          "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+          "STU_5e96f08a56b36f004dad63ec$50",
+          "DL_9657b684b63711ec8deaebc993c93b14$",
+          "DL_edea20ce309f11ec927465c7af5a1da6$",
+          "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+          "LQ_36c1c21e259311eb8c723934209d84b2$30",
+          "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+          "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+          "DL_3141d5fdf5c611eb928d25766d18eb0a",
+          "DL_55a668dc30ac11ec8b6e595172beed05$",
+          "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+          "DL_4d961b3fc1e011eba6ae476da30d23b5",
+          "DL_dde348aabbb411ec9bd64dbbec797812$",
+          "DL_66d02282a8eb11ecbd9b7738272ba686$",
+          "DL_72ba09937ff211eb86c457675973fc0c",
+          "DL_4abbdf369b8311ec8cb0af828ab72812$",
+          "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+          "DL_346afa6a2ff211ec83d9252fe0833310$",
+          "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+          "TZN_5f8fde03e4b032fdb219e271$",
+          "LQ_376de5d5581111ecabc50765498ccb1d",
+          "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+          "LQ_ccee67142e4111ebaa0e813648b0b482$30"
+        ],
+        "userTags": [
+          "ut_user_new",
+          "no_match_location",
+          "ut_user_new_forhotel",
+          "ut_unhn",
+          "ut_tx_airway_unrisk"
+        ],
+        "properties": {
+          "mode": 2,
+          "MODEL_ORIGIN_SCORE": {
+            "DL_f8f11a1e983d11ecb8279991ba476cd8$": -1.6342486078112908,
+            "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10": -1.6342486078112908,
+            "DL_e337ed60388d11ecbebc03443af0ee14": -1.6342486078112908,
+            "DL_b2d31b0af37311eb867309032570a819": -1.6342486078112908,
+            "DL_4813b474ef8d11eb804bbdee26bc4636": -1.6342486078112908,
+            "LQ_239b94db2e4211eb95f73106083496d5$30": -1.6342486078112908,
+            "DL_5b6e4857fa4a11ebb19df7a3d41c474b": -1.6342486078112908,
+            "DL_8a3139ee79a111ecabc593176b9bcaa9$": -1.6342486078112908,
+            "DL_353c60a3ec7911ec9e845981305afed8$": -1.6342486078112908,
+            "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30": -1.6342486078112908,
+            "LQ_036bf866f34211eaab7dd757da2ea59c$15": -1.6342486078112908,
+            "DL_7751abd0420a11ec901c2f973cc01d93$": -1.6342486078112908,
+            "DL_117f0b150fd211ec8c69899ae44f8edc": -1.6342486078112908,
+            "DL_6aba1f1672cc11ec8d668f1242171b2b": -1.6342486078112908,
+            "DL_b9e4f851c1ee11ebbcf02f21e45a4fad": -1.6342486078112908,
+            "DL_fa0f3648ef8d11ebb9ccf97e24c567f5": -1.6342486078112908,
+            "LQ_0cadee6e258711eba2c9b9e558671e67$30": -1.6342486078112908,
+            "DL_a3034882fa4911ebb0dc8f245cfbbd22": -1.6342486078112908,
+            "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25": -1.6342486078112908,
+            "DL_d6f034c1920511eb9c474f5f8d79eef7": -1.6342486078112908,
+            "MZ_840f883a2c0d11ec8ff415c97a7acc5a$": -1.6342486078112908,
+            "STU_5e96f08a56b36f004dad63ec$50": -1.6342486078112908,
+            "DL_9657b684b63711ec8deaebc993c93b14$": -1.6342486078112908,
+            "DL_edea20ce309f11ec927465c7af5a1da6$": -1.6342486078112908,
+            "LQ_f01df946a58911ea9e332d85d34a2b7b$15": -1.6342486078112908,
+            "LQ_36c1c21e259311eb8c723934209d84b2$30": -1.6342486078112908,
+            "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$": -1.6342486078112908,
+            "LQ_ca06f019259111ebab82b3b59bb5918b$30": -1.6342486078112908,
+            "DL_3141d5fdf5c611eb928d25766d18eb0a": -1.6342486078112908,
+            "DL_55a668dc30ac11ec8b6e595172beed05$": -1.6342486078112908,
+            "LQ_002fec532e1a11eb9055358014f6fa2c$30": -1.6342486078112908,
+            "DL_4d961b3fc1e011eba6ae476da30d23b5": -1.6342486078112908,
+            "DL_dde348aabbb411ec9bd64dbbec797812$": -1.6342486078112908,
+            "DL_66d02282a8eb11ecbd9b7738272ba686$": -1.6342486078112908,
+            "DL_72ba09937ff211eb86c457675973fc0c": -1.6342486078112908,
+            "DL_4abbdf369b8311ec8cb0af828ab72812$": -1.6342486078112908,
+            "DL_aaa0bee62fff11ec927465c7af5a1da6$": -1.6342486078112908,
+            "DL_346afa6a2ff211ec83d9252fe0833310$": -1.6342486078112908,
+            "DL_4f87e8d6435911ec8670fbe1f72bbab5$": -1.6342486078112908,
+            "TZN_5f8fde03e4b032fdb219e271$": -1.6342486078112908,
+            "LQ_376de5d5581111ecabc50765498ccb1d": -1.6342486078112908,
+            "DL_8f8beddfa69611ec9400979ae73a9b8b$": -1.6342486078112908,
+            "LQ_ccee67142e4111ebaa0e813648b0b482$30": -1.6342486078112908
+          },
+          "OUT_AB_RECORD": [
+            "B"
+          ],
+          "model_feature_scores": {
+            "DL_f8f11a1e983d11ecb8279991ba476cd8$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_e337ed60388d11ecbebc03443af0ee14": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_b2d31b0af37311eb867309032570a819": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_4813b474ef8d11eb804bbdee26bc4636": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_239b94db2e4211eb95f73106083496d5$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_5b6e4857fa4a11ebb19df7a3d41c474b": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_8a3139ee79a111ecabc593176b9bcaa9$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_353c60a3ec7911ec9e845981305afed8$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_036bf866f34211eaab7dd757da2ea59c$15": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_7751abd0420a11ec901c2f973cc01d93$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_117f0b150fd211ec8c69899ae44f8edc": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_6aba1f1672cc11ec8d668f1242171b2b": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_b9e4f851c1ee11ebbcf02f21e45a4fad": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_fa0f3648ef8d11ebb9ccf97e24c567f5": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_0cadee6e258711eba2c9b9e558671e67$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_a3034882fa4911ebb0dc8f245cfbbd22": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_d6f034c1920511eb9c474f5f8d79eef7": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "MZ_840f883a2c0d11ec8ff415c97a7acc5a$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "STU_5e96f08a56b36f004dad63ec$50": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_9657b684b63711ec8deaebc993c93b14$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_edea20ce309f11ec927465c7af5a1da6$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_f01df946a58911ea9e332d85d34a2b7b$15": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_36c1c21e259311eb8c723934209d84b2$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_ca06f019259111ebab82b3b59bb5918b$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_3141d5fdf5c611eb928d25766d18eb0a": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_55a668dc30ac11ec8b6e595172beed05$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_002fec532e1a11eb9055358014f6fa2c$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_4d961b3fc1e011eba6ae476da30d23b5": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_dde348aabbb411ec9bd64dbbec797812$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_66d02282a8eb11ecbd9b7738272ba686$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_72ba09937ff211eb86c457675973fc0c": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_4abbdf369b8311ec8cb0af828ab72812$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_aaa0bee62fff11ec927465c7af5a1da6$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_346afa6a2ff211ec83d9252fe0833310$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_4f87e8d6435911ec8670fbe1f72bbab5$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "TZN_5f8fde03e4b032fdb219e271$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_376de5d5581111ecabc50765498ccb1d": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "DL_8f8beddfa69611ec9400979ae73a9b8b$": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            },
+            "LQ_ccee67142e4111ebaa0e813648b0b482$30": {
+              "score": 16.324918,
+              "originScore": -1.6342486078112908,
+              "featureScores": {},
+              "tensorFlowResult": null
+            }
+          },
+          "activities": [
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 1,
+              "activiteCode": "f8f11a1e983d11ecb8279991ba476cd8"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "10",
+              "sort": 2,
+              "activiteCode": "9bcee64d3ec111eb897f356e7e6940ef"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 3,
+              "activiteCode": "e337ed60388d11ecbebc03443af0ee14"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 4,
+              "activiteCode": "b2d31b0af37311eb867309032570a819"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 5,
+              "activiteCode": "4813b474ef8d11eb804bbdee26bc4636"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 6,
+              "activiteCode": "239b94db2e4211eb95f73106083496d5"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 7,
+              "activiteCode": "5b6e4857fa4a11ebb19df7a3d41c474b"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 8,
+              "activiteCode": "8a3139ee79a111ecabc593176b9bcaa9"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 9,
+              "activiteCode": "353c60a3ec7911ec9e845981305afed8"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 10,
+              "activiteCode": "63e2fe2a2e1a11eb900eb38ba234f457"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "15",
+              "sort": 11,
+              "activiteCode": "036bf866f34211eaab7dd757da2ea59c"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 12,
+              "activiteCode": "7751abd0420a11ec901c2f973cc01d93"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 13,
+              "activiteCode": "117f0b150fd211ec8c69899ae44f8edc"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 14,
+              "activiteCode": "6aba1f1672cc11ec8d668f1242171b2b"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 15,
+              "activiteCode": "b9e4f851c1ee11ebbcf02f21e45a4fad"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 16,
+              "activiteCode": "fa0f3648ef8d11ebb9ccf97e24c567f5"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 17,
+              "activiteCode": "0cadee6e258711eba2c9b9e558671e67"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 18,
+              "activiteCode": "a3034882fa4911ebb0dc8f245cfbbd22"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "25",
+              "sort": 19,
+              "activiteCode": "9ec45179a58911eaa49ad7b9d854e6e9"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 20,
+              "activiteCode": "d6f034c1920511eb9c474f5f8d79eef7"
+            },
+            {
+              "componentCode": "MZ",
+              "price": "",
+              "sort": 21,
+              "activiteCode": "840f883a2c0d11ec8ff415c97a7acc5a"
+            },
+            {
+              "componentCode": "STU",
+              "price": "50",
+              "sort": 22,
+              "activiteCode": "5e96f08a56b36f004dad63ec"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 23,
+              "activiteCode": "9657b684b63711ec8deaebc993c93b14"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 24,
+              "activiteCode": "edea20ce309f11ec927465c7af5a1da6"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "15",
+              "sort": 25,
+              "activiteCode": "f01df946a58911ea9e332d85d34a2b7b"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 26,
+              "activiteCode": "36c1c21e259311eb8c723934209d84b2"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 27,
+              "activiteCode": "6e6e9c38a0da11ec996ad12fd3efc5eb"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 28,
+              "activiteCode": "ca06f019259111ebab82b3b59bb5918b"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 29,
+              "activiteCode": "3141d5fdf5c611eb928d25766d18eb0a"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 30,
+              "activiteCode": "55a668dc30ac11ec8b6e595172beed05"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 31,
+              "activiteCode": "002fec532e1a11eb9055358014f6fa2c"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 32,
+              "activiteCode": "4d961b3fc1e011eba6ae476da30d23b5"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 33,
+              "activiteCode": "dde348aabbb411ec9bd64dbbec797812"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 34,
+              "activiteCode": "66d02282a8eb11ecbd9b7738272ba686"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 35,
+              "activiteCode": "72ba09937ff211eb86c457675973fc0c"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 36,
+              "activiteCode": "4abbdf369b8311ec8cb0af828ab72812"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 37,
+              "activiteCode": "aaa0bee62fff11ec927465c7af5a1da6"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 38,
+              "activiteCode": "346afa6a2ff211ec83d9252fe0833310"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 39,
+              "activiteCode": "4f87e8d6435911ec8670fbe1f72bbab5"
+            },
+            {
+              "componentCode": "TZN",
+              "price": "",
+              "sort": 40,
+              "activiteCode": "5f8fde03e4b032fdb219e271"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "",
+              "sort": 41,
+              "activiteCode": "376de5d5581111ecabc50765498ccb1d"
+            },
+            {
+              "componentCode": "DL",
+              "price": "",
+              "sort": 42,
+              "activiteCode": "8f8beddfa69611ec9400979ae73a9b8b"
+            },
+            {
+              "componentCode": "LQ",
+              "price": "30",
+              "sort": 43,
+              "activiteCode": "ccee67142e4111ebaa0e813648b0b482"
+            }
+          ],
+          "now": [],
+          "product_infos": [
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "TZN_5f8fde03e4b032fdb219e271$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_66d02282a8eb11ecbd9b7738272ba686$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_4ea4940889c611eabf4c63cf4869e2f0$1",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_d4fbea33c0ee11ea84ea95e2a048ed52$",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_3345fb49570111eba7488f032295b588_$10",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_79ec5ff3570111eba5c1656060aaf91c_$10",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_d10d511b5b0f11eba7488f032295b588_$20",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "LC_22fe11a97ef311ea9ce4912d7c7792df$100",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_usernew_zl",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_usernew_zl"
+              ],
+              "sort": 0
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "TZN_5f8fde03e4b032fdb219e271$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_66d02282a8eb11ecbd9b7738272ba686$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "LC_22fe11a97ef311ea9ce4912d7c7792df$100",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_usernew_zl",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_usernew_zl"
+              ],
+              "sort": 0
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "TZN_5f8fde03e4b032fdb219e271$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_66d02282a8eb11ecbd9b7738272ba686$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 3
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_pricesensitive_new",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_pricesensitive_new"
+              ],
+              "sort": 1
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "TZN_5f8fde03e4b032fdb219e271$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_66d02282a8eb11ecbd9b7738272ba686$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 3
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 14
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_user_new",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_user_new"
+              ],
+              "sort": 2
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_student_noRZ",
+                  "sort": 0
+                },
+                {
+                  "code": "ut_student_RZ",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_student_noRZ",
+                "ut_student_RZ"
+              ],
+              "sort": 3
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LC_d2743e70f97311eaa92ecf994f79edea$200",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_business",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_business"
+              ],
+              "sort": 4
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_4ea4940889c611eabf4c63cf4869e2f0$1",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_d4fbea33c0ee11ea84ea95e2a048ed52$",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_3345fb49570111eba7488f032295b588_$10",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_79ec5ff3570111eba5c1656060aaf91c_$10",
+                  "sort": 0
+                },
+                {
+                  "code": "LQ_d10d511b5b0f11eba7488f032295b588_$20",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_user_old",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_user_old"
+              ],
+              "sort": 5
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_user_old",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_user_old"
+              ],
+              "sort": 5
+            },
+            {
+              "userTagRelation": 0,
+              "products": [
+                {
+                  "code": "STU_5e96f08a56b36f004dad63ec$50",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_346afa6a2ff211ec83d9252fe0833310$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_aaa0bee62fff11ec927465c7af5a1da6$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4f87e8d6435911ec8670fbe1f72bbab5$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_4abbdf369b8311ec8cb0af828ab72812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_9657b684b63711ec8deaebc993c93b14$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_dde348aabbb411ec9bd64dbbec797812$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_353c60a3ec7911ec9e845981305afed8$",
+                  "sort": 0
+                },
+                {
+                  "code": "DL_55a668dc30ac11ec8b6e595172beed05$",
+                  "sort": 1
+                },
+                {
+                  "code": "MZ_840f883a2c0d11ec8ff415c97a7acc5a$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_6aba1f1672cc11ec8d668f1242171b2b",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_8f8beddfa69611ec9400979ae73a9b8b$",
+                  "sort": 1
+                },
+                {
+                  "code": "DL_117f0b150fd211ec8c69899ae44f8edc",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_edea20ce309f11ec927465c7af5a1da6$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_7751abd0420a11ec901c2f973cc01d93$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_8a3139ee79a111ecabc593176b9bcaa9$",
+                  "sort": 2
+                },
+                {
+                  "code": "DL_e337ed60388d11ecbebc03443af0ee14",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_376de5d5581111ecabc50765498ccb1d",
+                  "sort": 3
+                },
+                {
+                  "code": "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25",
+                  "sort": 4
+                },
+                {
+                  "code": "LQ_f01df946a58911ea9e332d85d34a2b7b$15",
+                  "sort": 5
+                },
+                {
+                  "code": "DL_f8f11a1e983d11ecb8279991ba476cd8$",
+                  "sort": 5
+                },
+                {
+                  "code": "LQ_036bf866f34211eaab7dd757da2ea59c$15",
+                  "sort": 6
+                },
+                {
+                  "code": "LQ_36c1c21e259311eb8c723934209d84b2$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ca06f019259111ebab82b3b59bb5918b$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_0cadee6e258711eba2c9b9e558671e67$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_002fec532e1a11eb9055358014f6fa2c$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_ccee67142e4111ebaa0e813648b0b482$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_239b94db2e4211eb95f73106083496d5$30",
+                  "sort": 7
+                },
+                {
+                  "code": "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10",
+                  "sort": 13
+                },
+                {
+                  "code": "DL_4813b474ef8d11eb804bbdee26bc4636",
+                  "sort": 16
+                },
+                {
+                  "code": "DL_72ba09937ff211eb86c457675973fc0c",
+                  "sort": 20
+                },
+                {
+                  "code": "DL_d6f034c1920511eb9c474f5f8d79eef7",
+                  "sort": 22
+                },
+                {
+                  "code": "DL_fa0f3648ef8d11ebb9ccf97e24c567f5",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_b2d31b0af37311eb867309032570a819",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_3141d5fdf5c611eb928d25766d18eb0a",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_a3034882fa4911ebb0dc8f245cfbbd22",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_5b6e4857fa4a11ebb19df7a3d41c474b",
+                  "sort": 23
+                },
+                {
+                  "code": "DL_4d961b3fc1e011eba6ae476da30d23b5",
+                  "sort": 25
+                },
+                {
+                  "code": "DL_b9e4f851c1ee11ebbcf02f21e45a4fad",
+                  "sort": 25
+                }
+              ],
+              "userTags": [
+                {
+                  "code": "ut_user_old",
+                  "sort": 0
+                }
+              ],
+              "userTagCodes": [
+                "ut_user_old"
+              ],
+              "sort": 5
+            }
+          ],
+          "OUT_PRODUCT_PROPERTIES": {},
+          "history": {},
+          "model_product_codes": {
+            "DL_f8f11a1e983d11ecb8279991ba476cd8$": 16.324918,
+            "LQ_9bcee64d3ec111eb897f356e7e6940ef_$10": 16.324918,
+            "DL_e337ed60388d11ecbebc03443af0ee14": 16.324918,
+            "DL_b2d31b0af37311eb867309032570a819": 16.324918,
+            "DL_4813b474ef8d11eb804bbdee26bc4636": 16.324918,
+            "LQ_239b94db2e4211eb95f73106083496d5$30": 16.324918,
+            "DL_5b6e4857fa4a11ebb19df7a3d41c474b": 16.324918,
+            "DL_8a3139ee79a111ecabc593176b9bcaa9$": 16.324918,
+            "DL_353c60a3ec7911ec9e845981305afed8$": 16.324918,
+            "LQ_63e2fe2a2e1a11eb900eb38ba234f457$30": 16.324918,
+            "LQ_036bf866f34211eaab7dd757da2ea59c$15": 16.324918,
+            "DL_7751abd0420a11ec901c2f973cc01d93$": 16.324918,
+            "DL_117f0b150fd211ec8c69899ae44f8edc": 16.324918,
+            "DL_6aba1f1672cc11ec8d668f1242171b2b": 16.324918,
+            "DL_b9e4f851c1ee11ebbcf02f21e45a4fad": 16.324918,
+            "DL_fa0f3648ef8d11ebb9ccf97e24c567f5": 16.324918,
+            "LQ_0cadee6e258711eba2c9b9e558671e67$30": 16.324918,
+            "DL_a3034882fa4911ebb0dc8f245cfbbd22": 16.324918,
+            "LQ_9ec45179a58911eaa49ad7b9d854e6e9$25": 16.324918,
+            "DL_d6f034c1920511eb9c474f5f8d79eef7": 16.324918,
+            "MZ_840f883a2c0d11ec8ff415c97a7acc5a$": 16.324918,
+            "STU_5e96f08a56b36f004dad63ec$50": 16.324918,
+            "DL_9657b684b63711ec8deaebc993c93b14$": 16.324918,
+            "DL_edea20ce309f11ec927465c7af5a1da6$": 16.324918,
+            "LQ_f01df946a58911ea9e332d85d34a2b7b$15": 16.324918,
+            "LQ_36c1c21e259311eb8c723934209d84b2$30": 16.324918,
+            "DL_6e6e9c38a0da11ec996ad12fd3efc5eb$": 16.324918,
+            "LQ_ca06f019259111ebab82b3b59bb5918b$30": 16.324918,
+            "DL_3141d5fdf5c611eb928d25766d18eb0a": 16.324918,
+            "DL_55a668dc30ac11ec8b6e595172beed05$": 16.324918,
+            "LQ_002fec532e1a11eb9055358014f6fa2c$30": 16.324918,
+            "DL_4d961b3fc1e011eba6ae476da30d23b5": 16.324918,
+            "DL_dde348aabbb411ec9bd64dbbec797812$": 16.324918,
+            "DL_66d02282a8eb11ecbd9b7738272ba686$": 16.324918,
+            "DL_72ba09937ff211eb86c457675973fc0c": 16.324918,
+            "DL_4abbdf369b8311ec8cb0af828ab72812$": 16.324918,
+            "DL_aaa0bee62fff11ec927465c7af5a1da6$": 16.324918,
+            "DL_346afa6a2ff211ec83d9252fe0833310$": 16.324918,
+            "DL_4f87e8d6435911ec8670fbe1f72bbab5$": 16.324918,
+            "TZN_5f8fde03e4b032fdb219e271$": 16.324918,
+            "LQ_376de5d5581111ecabc50765498ccb1d": 16.324918,
+            "DL_8f8beddfa69611ec9400979ae73a9b8b$": 16.324918,
+            "LQ_ccee67142e4111ebaa0e813648b0b482$30": 16.324918
+          }
+        }
+      }
+    ],
+    "voucher": {
+      "vmp": "0",
+      "cmp": "0"
+    },
+    "limitChallenge": {
+      "display": 0,
+      "endTime": "",
+      "activiteCode": "5f8fde03e4b032fdb219e271"
+    },
+    "stu_prompt": "【学生特惠】返校购票立减50元",
+    "com_rec_title": "超多省钱的方案都在这里哦！"
+  },
+  "iact": "0"
+}

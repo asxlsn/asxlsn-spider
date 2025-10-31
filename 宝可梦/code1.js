@@ -70,7 +70,7 @@ function aesEncryptFromUrlParam(url_data){
     let encrypt = aesEncrypt(url_data);
     return  encodeURIComponent((encrypt));
 }
-    /**
+/**
  * AES加密函数
  * @param {string} text 要加密的文本
  * @returns {string} 加密后的文本
@@ -136,15 +136,51 @@ function get_signature() {
     return Sign(r);
 }
 
+/**
+ * 解密数据并格式化数据
+ * @param encryptedData
+ * @returns {any|null}
+ */
+function decryptAndFormat(encryptedData) {
+    try {
+        // 解密数据
+        const decryptedData = aesDecrypt(encryptedData);
+        // 格式化输出
+        console.log(JSON.stringify(decryptedData, null, 2));
+        // 返回解密后的数据供进一步使用
+        return decryptedData;
+    } catch (error) {
+        console.error("解密或格式化失败:", error.message);
+        return null;
+    }
+}
 
 
 
+params ={
 
-// 示例
-var str_params = "7QkQL6Sa9TN4zR3ZetrrwA%3D%3D";
-var url_text ='{"id":"4204"}'
-console.log(aesDecryptFromUrlParam(str_params));
-console.log(aesEncryptFromUrlParam(url_text));
+}
+
+/**
+ * js对象类型
+ * 加密参数并返回URL参数
+ * @param params
+ * @returns {string}
+ */
+function encryptParamsForUrl(params){
+    // 将参数对象转换为JSON字符串
+        const paramsString = JSON.stringify(params);
+
+        // AES加密并进行URL编码
+        // param_url_encoded = aesEncryptFromUrlParam(paramsString);
+        return aesEncryptFromUrlParam(paramsString);
+}
+
+let url_params = '7QkQL6Sa9TN4zR3ZetrrwA%3D%3D'
+console.log(aesDecryptFromUrlParam(url_params))
+
+
+
 
 
 

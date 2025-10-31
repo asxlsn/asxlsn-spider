@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signature Test</title>
+    <script src="../static/code.js"></script>
+</head>
+<body>
+
+
+<script>
+    function callSignature() {
+        return window.signature("1");
+    }
+
+    // 页面加载完成后自动调用
+    window.onload = function() {
+        const result = callSignature();
+        // 可以选择将结果显示在页面上
+        document.body.innerHTML += `<div>Signature结果: ${result}</div>`;
+    };
+</script>
+
+</body>
+</html>

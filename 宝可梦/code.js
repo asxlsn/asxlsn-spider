@@ -47,6 +47,21 @@ function aesDecryptFromUrlParam(url_data) {
 }
 
 /**
+ * js对象类型
+ * 加密参数并返回URL参数
+ * @param params
+ * @returns {string}
+ */
+function encryptParamsForUrl(params) {
+  // 将参数对象转换为JSON字符串
+  const paramsString = JSON.stringify(params);
+
+  // AES加密并进行URL编码
+  // param_url_encoded = aesEncryptFromUrlParam(paramsString);
+  return aesEncryptFromUrlParam(paramsString);
+}
+
+/**
  * AES 加密
  * @Description
  * 明文 url_data
@@ -90,6 +105,24 @@ function aesDecrypt(encryptedText) {
   return JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
 }
 
+/**
+ * 解密数据并格式化数据
+ * @param encryptedData
+ * @returns {any|null}
+ */
+function decryptAndFormat(encryptedData) {
+  try {
+    // 解密数据
+    const decryptedData = aesDecrypt(encryptedData);
+    // 格式化输出
+    console.log(JSON.stringify(decryptedData, null, 2));
+    // 返回解密后的数据供进一步使用
+    return decryptedData;
+  } catch (error) {
+    console.error("解密或格式化失败:", error.message);
+    return null;
+  }
+}
 /**
  * 签名函数
  * @param {object} r 配置对象

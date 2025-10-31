@@ -1,3 +1,5 @@
+from pprint import pprint
+
 import execjs
 import requests
 
@@ -29,6 +31,6 @@ headers = {
 url = "https://app-api.pokemon-tcg.cn/app-api/v1/app/customerInfo/get"
 response = requests.get(url, headers=headers)
 result_data = ctx.call("aesDecrypt", response.text)
-print(result_data)
+pprint(result_data)
 
 
